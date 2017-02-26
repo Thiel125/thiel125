@@ -10,6 +10,7 @@ disk=`df -h | grep /dev/sda1 | awk -F " " '{print $2}'`
 pouzito=`df -h | grep /dev/sda1 | awk -F " " '{print $3}'`
 procenta=`df -h | grep /dev/sda1 | awk -F " " '{print $5}'
 
+echo "<hr>" >> /home/student/Plocha/thiel125/index.html 
 echo "Current time: "$cas >> /home/student/Plocha/thiel125/index.html 
 echo "My Ip adress: "$ip >> /home/student/Plocha/thiel125/index.html 
 echo "Received data: "$rx >> /home/student/Plocha/thiel125/index.html 
