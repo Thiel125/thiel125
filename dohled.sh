@@ -11,7 +11,7 @@ used=`df -h | grep /dev/sda1 | awk -F " " '{print $3}'`
 procent=`df -h | grep /dev/sda1 | awk -F " " '{print $5}'`
 
 echo "<hr>" >> /home/student/Plocha/thiel125/index.html 
-echo '<div style="font-family: arial; padding: 5px; text-align: center; background-colour: powderblue;">
+echo '<div style="font-family: arial; padding: 5px; text-align: center; background-colour: powderblue;">' >> /home/student/Plocha/thiel125/index.html 
 echo "<p>Current time: "$time"</p>" >> /home/student/Plocha/thiel125/index.html 
 echo "<p>My Ip adress: "$ip"</p>" >> /home/student/Plocha/thiel125/index.html 
 echo "<p>Received data: "$rx"</p>" >> /home/student/Plocha/thiel125/index.html 
